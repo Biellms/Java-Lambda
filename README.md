@@ -1,6 +1,6 @@
 <div align="center">
 
-# **Java - Lambda**
+# **Java - Lambda Expressions**
 Estudos pessoais sobre Lambda Expressions em Java.
 
 </div>
