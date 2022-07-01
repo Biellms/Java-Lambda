@@ -25,7 +25,7 @@ public class finalOperations {
             .filter(e -> e % 2 == 0)
                 .count();
 
-        System.out.println(count);
+        System.out.println(count+"\n");
 
         System.out.println("Stream 2: min, max");
 
@@ -37,7 +37,7 @@ public class finalOperations {
             .max(Comparator.naturalOrder());
 
         System.out.println(min.get());
-        System.out.println(max.get());
+        System.out.println(max.get()+"\n");
 
         System.out.println("Stream 3: collect - toList");
 
@@ -45,14 +45,14 @@ public class finalOperations {
             .map(e -> e + 4)
                 .collect(Collectors.toList());
 
-        System.out.println(list);
+        System.out.println(list+"\n");
 
         System.out.println("Stream 4: collect - groupingBy");
 
         Map<Integer, List<Integer>> group = List.stream()
             .collect(Collectors.groupingBy(e -> e % 3));
 
-        System.out.println(group);
+        System.out.println(group+"\n");
 
         System.out.println("Stream 5: collect - joining");
 
@@ -60,6 +60,6 @@ public class finalOperations {
             .map(e -> String.valueOf(e))
                 .collect(Collectors.joining(", "));
 
-        System.out.println(join);
+        System.out.println(join+"\n");
     }
 }

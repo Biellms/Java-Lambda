@@ -8,6 +8,8 @@ public class streamExample {
         
         // API DE STREAM
         // stream -> fluxo de dados
+        // stream = loops implicitos
+        // for|while|dowhile = loops explicitos
 
         List<Integer> asList = Arrays.asList(1, 2, 3, 4, 5, 6);
 
