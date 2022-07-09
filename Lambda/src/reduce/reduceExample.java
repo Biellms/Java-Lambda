@@ -19,5 +19,11 @@ public class reduceExample {
             .reduce((n1, n2) -> n1 + n2);
 
         System.out.println("Soma: "+soma);
+
+        // multiplicacao
+        Optional<Integer> multi = list.stream()
+            .reduce((n1, n2) -> n1 * n2);
+        
+        System.out.println("Multiplicacao: "+multi);
     }
 }

@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch optional",
+            "request": "launch",
+            "mainClass": "optional.optional",
+            "projectName": "Java-Lambda_dfac5c49"
+        },
+        {
+            "type": "java",
+            "name": "Launch reduceExample",
+            "request": "launch",
+            "mainClass": "reduce.reduceExample",
+            "projectName": "Java-Lambda_dfac5c49"
+        },
+        {
+            "type": "java",
+            "name": "Launch finalOperations",
+            "request": "launch",
+            "mainClass": "stream.finalOperations",
+            "projectName": "Java-Lambda_dfac5c49"
+        },
+        {
+            "type": "java",
+            "name": "Launch intermediateOperations",
+            "request": "launch",
+            "mainClass": "stream.intermediateOperations",
+            "projectName": "Java-Lambda_dfac5c49"
+        },
+        {
+            "type": "java",
+            "name": "Launch streamExample",
+            "request": "launch",
+            "mainClass": "stream.streamExample",
+            "projectName": "Java-Lambda_dfac5c49"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello1",
+            "request": "launch",
+            "mainClass": "thread.hello1",
+            "projectName": "Java-Lambda_dfac5c49"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello2",
+            "request": "launch",
+            "mainClass": "thread.hello2",
+            "projectName": "Java-Lambda_dfac5c49"
+        }
+    ]
+}
