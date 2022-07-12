@@ -3,7 +3,7 @@ package reduce;
 import java.util.*;
 import java.util.stream.DoubleStream;
 
-public class reduceExample {
+public class reduceExamples {
     
     public static void main(String[] args) {
         
@@ -50,5 +50,16 @@ public class reduceExample {
         //     .reduce((n1, n2) -> n1 - n2);
 
         // System.out.println("Subtracao: "+subtracao);
+
+        /*
+         * Funcao de combinacao: executa stream em paralelo
+         */
+        // Map + combiner
+        String combinacao = list.stream()
+            .map(n1 -> n1.toString())
+                .reduce("", (n1, n2) -> n1.toString().concat(n2.toString()),
+                    (n1, n2) -> n1.concat(n2));
+            
+        System.out.println("Funcao de Combinacao: "+combinacao);
     }
 }

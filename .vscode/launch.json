@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch reduceExamples",
+            "request": "launch",
+            "mainClass": "reduce.reduceExamples",
+            "projectName": "Java-Lambda_dfac5c49"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
